@@ -27,7 +27,7 @@ export const WordCardModal: React.FC<WordCardModalProps> = ({
     const saved = localStorage.getItem('reinforce-ids');
     const ids = saved ? JSON.parse(saved) : [];
     setIsReinforced(ids.includes(word.id));
-    speak(word.text, { rate: 0.9 });
+    // 强制规则：移除此处自动发音代码 speak(...)
   }, [word]);
 
   const toggleReinforce = () => {
