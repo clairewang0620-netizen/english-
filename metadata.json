@@ -1,0 +1,7 @@
+{
+  "name": "AceEnglish Pro",
+  "description": "A comprehensive English learning application featuring group-based word study, dictation with AI feedback, and curated journal reading with paragraph-level translation and shadowing.",
+  "requestFramePermissions": [
+    "microphone"
+  ]
+}
